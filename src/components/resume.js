@@ -15,7 +15,7 @@ class Resume extends Component {
               
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Paul Hanna</h2>
+            <h2 style={{paddingTop: '2em'}}>Sudan Bhusal</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>I have completed my some college courses and I am currently studying a full-stack development at UC-Berkely extension.</p>
