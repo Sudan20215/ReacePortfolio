@@ -12,3 +12,6 @@ Clone repo, install, cd into folder and run:
 npm install
 npm start
 ```
+# Deployed Link
+
+https://reactprofile123.herokuapp.com/
