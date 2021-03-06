@@ -18,12 +18,11 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto',marginBottom:'30px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              This is our group project about day planner.Click on the link and it will redirect you!!!
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button onClick={()=> window.open("https://github.com/Sudan20215/Fantastic-Four-Stocks", "_blank")} colored>GitHub</Button>
+              <Button  onClick={()=> window.open("https://secret-escarpment-97413.herokuapp.com/", "_blank")} colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -34,12 +33,11 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto',marginBottom:'30px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            This is my project about password generator.Click on the link and it will redirect you!!!
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button onClick={()=> window.open("https://github.com/Sudan20215/password_generator", "_blank")}colored>GitHub</Button>
+              <Button onClick={()=> window.open("https://sudan20215.github.io/password_generator/", "_blank")}  colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -50,12 +48,11 @@ class Projects extends Component {
           <Card shadow={6} style={{minWidth: '450', margin: 'auto',marginBottom:'30px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            This is our group project about news.Click on the link and it will redirect you!!!
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button onClick={()=> window.open("https://github.com/Sudan20215/Project-1-", "_blank")} colored>GitHub</Button>
+              <Button onClick={()=> window.open("https://sudan20215.github.io/Project-1-/", "_blank")} colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -65,18 +62,9 @@ class Projects extends Component {
 
 
       )
-    } else if(this.state.activeTab === 1) {
-      return (
-        <div><h1>This is Angular</h1></div>
-      )
-    } else if(this.state.activeTab === 2) {
-      return (
-        <div><h1>This is VueJS</h1></div>
-      )
-    } else if(this.state.activeTab === 3) {
-      return (
-        <div><h1>This is MongoDB</h1></div>
-      )
+    
+    
+   
     }
 
   }
@@ -87,10 +75,8 @@ class Projects extends Component {
     return(
       <div className="projects">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Github Projects</Tab>
+         
         </Tabs>
 
 

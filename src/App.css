@@ -97,10 +97,7 @@
 
 /* contact page css */
 
-.avatar-img {
-  height: 250px;
-  padding-top: 5em;
-}
+
 
 .banner-text {
   background-color: black;
@@ -151,4 +148,12 @@
   color: white;
   font-size: calc(4vw + 20px);
   padding: 8px;
+}
+.aboutMe{
+  align-items: center;
+  text-align: center;
+  margin: 30px 30px 30px 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
 }
